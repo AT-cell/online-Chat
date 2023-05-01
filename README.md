@@ -1,5 +1,7 @@
 # online-Chat
 Create App with cometchat for realtime online chat
 
-befor starting online chat, read how use the app in land page.
+Before running the app make sure to install pakage(npm install)
+
+Before starting online chat, read how to use the app in the land page.
 
