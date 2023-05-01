@@ -1,0 +1,57 @@
+.user-input-wrp {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-input-wrp .inputText {
+  width: 100%;
+  height: 57px;
+  font-weight: 500;
+  color: #353535;
+  outline: none;
+  letter-spacing: 0.02em;
+  padding-left: 44px;
+  padding-top: 13px;
+  border: none;
+  border-left: 2px solid #ffffffa1;
+  border-radius: 3px;
+  transition: 0.2s;
+  box-shadow: 8px 5px 14px 0px rgb(0 0 0 / 5%);
+}
+
+.user-input-wrp .inputText:focus {
+  transition: 0.2s;
+  box-shadow: 4px 3px 19px 2px #6ebbff49;
+  border-left: 2px solid #52afffa1;
+}
+.user-input-wrp .floating-label {
+  position: absolute;
+  pointer-events: none;
+  top: 40px;
+  left: 46px;
+  color: #8e8e8e;
+  font-size: 0.9em;
+  transition: 0.2s ease all;
+}
+.user-input-wrp .inputText:focus ~ .floating-label,
+.user-input-wrp .inputText:not(:focus):valid ~ .floating-label {
+  top: 29px;
+  font-size: 11px;
+  left: 46px;
+  color: #989898;
+}
+.user-input-wrp > svg {
+  position: absolute;
+  font-size: 1.3em;
+  top: 36px;
+  left: 11px;
+}
+
+.error_form{ 
+    color: #ff5353; 
+    font-size: .78em; 
+    margin-top: 13px;
+} 

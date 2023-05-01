@@ -1,0 +1,47 @@
+.box404 {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 70px;
+  }
+  .box404 > h1 {
+    font-size: 3em;
+    color: #373737;
+    font-weight: 500;
+    text-align: center;
+  }
+  .box404 > a {
+    margin: 40px 0 20px 0;
+    background-color: #519aff00;
+    color: #519aff;
+    border: 2px solid #519aff;
+    padding: 13px 34px;
+    border-radius: 12px;
+    transition: 0.2s;
+  }
+  .box404 > a:hover {
+    background-color: #519aff;
+    color: #fff;
+    box-shadow: 0 5px 6px 0 rgb(0 0 0 / 15%);
+    transition: 0.2s;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .box404 > img {
+      width: 100%;
+    }
+    .box404 {
+      margin-top: 0;
+    }
+    .box404 > h1 {
+      font-size: 4vw;
+    }
+    .box404 > a {
+      padding: 7px 30px;
+    }
+  }
+  
